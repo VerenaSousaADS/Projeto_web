@@ -1,0 +1,84 @@
+body {
+	font-family: Arial;
+	margin: 0;
+}
+
+.topo {
+	color: black;
+	text-align: center;
+	background: rgb(220,220,220);
+	padding: 80px;
+	margin-top: -35px;
+}
+
+.menu {
+	background: rgb(105,105,105);
+	overflow: hidden;
+	top: 0;
+	position: sticky;
+}
+
+.menu a {
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	float: left;
+}
+
+.menu a:hover {
+	color: black;
+	background: rgb(242, 242, 242);
+}
+
+.menu_principal {
+	background: rgb(121, 121, 121);
+}
+
+.pesquisa {
+	float: right;
+	padding: 12px;
+	margin-right: 12px;
+	margin-top: 2px;
+	border: 1px solid rgb(242, 242, 242);
+	border-radius: 5px;
+}
+
+.principal {
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.lado {
+	flex: 30%;
+	color: black;
+	border: 10px;
+	box-sizing: border-box;
+	background: rgb(220,220,220);
+	padding: 20px;
+}
+
+.centro {
+	flex: 70%;
+	box-sizing: border-box;
+	padding: 20px;
+	color: white;
+	background: rgb(79,79,79);
+}
+
+.conteudo {
+	background: rgb(128,128,128);
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+.rodape {
+	padding: 8px;
+	text-align: center;
+	background: rgb(242, 242, 242);
+}
+
+
