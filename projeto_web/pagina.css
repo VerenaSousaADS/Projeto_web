@@ -3,6 +3,11 @@ body {
 	margin: 0;
 }
 
+span {
+	font-size: 20px;
+	cursor: pointer;
+}
+
 .topo {
 	color: black;
 	text-align: center;
@@ -11,12 +16,24 @@ body {
 	margin-top: -35px;
 }
 
+.carrinho {
+	float: right;
+}
+
+.roda {
+	padding-left: 10px;
+	margin-top: 5px;
+	float: left;
+}
+
+
 .menu {
 	background: rgb(105,105,105);
 	overflow: hidden;
 	top: 0;
 	position: sticky;
 }
+
 
 .menu a {
 	color: white;
@@ -38,16 +55,21 @@ body {
 .pesquisa {
 	float: right;
 	padding: 12px;
-	margin-right: 12px;
+	margin-right: 250px;
 	margin-top: 2px;
 	border: 1px solid rgb(242, 242, 242);
-	border-radius: 5px;
+	border-radius: 20px;
+	width: 600px;
+	
 }
 
 .principal {
 	display: flex;
 	flex-wrap: wrap;
 	color: white;
+
+	
+	
 }
 
 .lado {
@@ -57,14 +79,20 @@ body {
 	box-sizing: border-box;
 	background: rgb(220,220,220);
 	padding: 20px;
+	
+	
 }
 
+.link1 {
+	text-decoration: none;
+}
 .centro {
 	flex: 70%;
 	box-sizing: border-box;
 	padding: 20px;
 	color: white;
 	background: rgb(79,79,79);
+	
 }
 
 .conteudo {
@@ -72,6 +100,8 @@ body {
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
+	border-radius: 14px;
+
 
 }
 
