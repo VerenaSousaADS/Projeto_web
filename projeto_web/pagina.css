@@ -16,6 +16,13 @@ span {
 	margin-top: -35px;
 }
 
+.colaborador{
+
+	float: right;
+	margin-right: 20%;
+
+}
+
 .carrinho {
 	float: right;
 }
@@ -26,14 +33,12 @@ span {
 	float: left;
 }
 
-
 .menu {
-	background: rgb(105,105,105);
+	background:  CadetBlue;
 	overflow: hidden;
 	top: 0;
 	position: sticky;
 }
-
 
 .menu a {
 	color: white;
@@ -49,27 +54,14 @@ span {
 }
 
 .menu_principal {
-	background: rgb(121, 121, 121);
+	background:  CadetBlue;
 }
 
-.pesquisa {
-	float: right;
-	padding: 12px;
-	margin-right: 250px;
-	margin-top: 2px;
-	border: 1px solid rgb(242, 242, 242);
-	border-radius: 20px;
-	width: 600px;
-	
-}
 
 .principal {
 	display: flex;
 	flex-wrap: wrap;
 	color: white;
-
-	
-	
 }
 
 .lado {
@@ -78,16 +70,16 @@ span {
 	border: 10px;
 	box-sizing: border-box;
 	background: rgb(220,220,220);
-	padding: 20px;
-	
-	
+	padding: 10px;
 }
 
-.link1 {
+.link1 a {
 	text-decoration: none;
+	color:  Lavender;
 }
+
 .centro {
-	flex: 70%;
+	flex: 65%;
 	box-sizing: border-box;
 	padding: 20px;
 	color: white;
@@ -96,7 +88,7 @@ span {
 }
 
 .conteudo {
-	background: rgb(128,128,128);
+	background:  CadetBlue;
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;

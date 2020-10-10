@@ -8,6 +8,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: Arial;
+    color: black;
 }
 
 
@@ -22,13 +23,14 @@ body{
 .box_login .cover{
 
     height: 240px;
-    text-align: center;
+    text-align: center;  
 }
 
 .cover-top{
 
     height: 200px;
     text-align: center;
+ 
 }
 
 .form-title{
@@ -59,9 +61,10 @@ input{
     width: calc(100% - 40px);
     font-weight: bold;
     margin: 5px;
-    background: rgb(105,105,105);
+    background: CadetBlue;
     padding: 10px 10px;
     border-radius: 10px 10px 10px 10px;
+    color: white;
 }
 
 .msg_error{
